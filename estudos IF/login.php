@@ -1,8 +1,8 @@
 <?php
-    $nome = $_POST['usuario'];
-    $senha = $_POST['senha'];
+    $nome = 'Fabricio';
+    $senha = 'senha';
 
-    if($nome == "Fabricio" && $senha == "saiko"){
+        if($_POST['usuario']; = $nome && $_POST['senha'] = $senha){
         header('Location: feed.php');
     }
     else{
