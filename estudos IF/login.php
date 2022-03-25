@@ -3,9 +3,9 @@
     $senha = $_POST['senha'];
 
     if($nome == "Fabricio" && $senha == "saiko"){
-        header('Location: feed.php')
+        header('Location: feed.php');
     }
     else{
-    header('Location: index.php');
+        header('Location: index.php');
     }
 ?>
