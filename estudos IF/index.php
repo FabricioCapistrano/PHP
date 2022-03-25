@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site IF</title>
 </head>
+<style>
+    body{
+        background-color: #483D8B	;
+        text-align: center;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
 <body>
-    <h1>Uatizap 2</h1>
-    <form action="login.php" method="post">
+    <h1 class="titulo">Uatizap 2</h1>
+    <form method="post" action="login.php">
         <p>
             <label>Usuário:</label>
-            <input type="text" name= "usuário"/>
+            <input type="text" name= "usuario"/>
         </p>
         <p>
             <label>Senha:</label>

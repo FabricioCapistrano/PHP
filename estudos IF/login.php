@@ -1,11 +1,11 @@
 <?php
     $nome = 'Fabricio';
-    $senha = 'senha';
+    $senha = 'saiko';
 
-        if($_POST['usuario']; = $nome && $_POST['senha'] = $senha){
-        header('Location: feed.php');
-    }
-    else{
-        header('Location: index.php');
-    }
+if($_POST['usuario'] != $nome && $_POST['senha'] != $senha){
+    header('Location: index.php');
+}
+else{
+    header('Location: feed.php');
+}
 ?>
