@@ -16,6 +16,11 @@
     }
 </style>
 <body>
+
+    <?php
+    echo $_SESSION['erro'];
+    ?>
+
     <h1 class="titulo">Uatizap 2</h1>
     <form method="post" action="login.php">
         <p>

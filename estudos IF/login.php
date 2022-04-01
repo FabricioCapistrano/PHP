@@ -1,11 +1,15 @@
 <?php
-    $nome = 'Fabricio';
-    $senha = 'saiko';
 
-if($_POST['usuario'] != $nome && $_POST['senha'] != $senha){
-    header('Location: index.php');
+    session_start();
+    
+    $nome = 'Fabricio';
+    $senha = 'senha';
+
+if($_POST['usuario'] == $nome && $_POST['senha'] == $senha){
+    header('Location: feed.php');
 }
 else{
-    header('Location: feed.php');
+    $_SESSION['erro'] = 'Senha Inválida!!';
+    header('Location: index.php');
 }
 ?>
