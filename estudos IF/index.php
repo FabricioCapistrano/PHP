@@ -12,7 +12,9 @@
         text-align: center;
     }
     h1{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Alata-Regular';
+        src: url('fontskk/Alata-Regular.ttf');
+        
     }
 </style>
 <body>

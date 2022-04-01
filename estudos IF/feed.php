@@ -17,6 +17,9 @@
 </style>
 <body>
     <h1>Urubuzando tudo!</h1>
-    <h2>Olá <?php echo '$_nome'; ?></h2>
+    <h2>Olá <?php
+    session_start();
+    echo $_SESSION['usuario'];
+    ?>!</h2>
 </body>
 </html>
