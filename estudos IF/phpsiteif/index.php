@@ -13,8 +13,9 @@
     }
     h1{
         font-family: 'Alata-Regular';
-        src: url('fontskk/Alata-Regular.ttf');
-        
+        src: url('fontskk/Alata-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
     }
 </style>
 <body>
