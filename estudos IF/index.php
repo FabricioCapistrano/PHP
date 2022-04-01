@@ -8,7 +8,7 @@
 </head>
 <style>
     body{
-        background-color: #483D8B	;
+        background-color: #836FFF	;
         text-align: center;
     }
     h1{
@@ -18,7 +18,10 @@
 <body>
 
     <?php
-    echo $_SESSION['erro'];
+    session_start();
+    if(isset($_SESSION['erro'])){
+        echo $_SESSION['erro'];
+    }
     ?>
 
     <h1 class="titulo">Uatizap 2</h1>
