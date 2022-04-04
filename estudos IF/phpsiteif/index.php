@@ -4,22 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Site IF</title>
-</head>
-<style>
-    body{
-        background-color: #836FFF	;
-        text-align: center;
-    }
-    h1{
-        font-family: 'Alata-Regular';
-        src: url('fontskk/Alata-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-</style>
-<body>
 
+</head>
+<body>
     <?php
     session_start();
     if(isset($_SESSION['erro'])){
