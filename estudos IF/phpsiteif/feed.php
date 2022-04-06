@@ -7,15 +7,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Feed</title>
 </head>
-<style>
-    body{
-        background-color: #836FFF;
-        text-align: center;
-    }
-    h1{
-        font-family: 'Courier New', monospace;
-    }
-</style>
+
 <body>
     <h1>Urubuzando tudo!</h1>
     <h2>Olá <?php

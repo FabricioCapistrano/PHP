@@ -1,9 +1,33 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Alata';
+    src: url('../fontskk/Alata-Regular.ttf') format('truetype');
+}
+
 body{
-    background-color: #836FFF;
+    background-color: #574AA8;
     text-align: center;
 }
 *{
-    font-family: 'Courier New', monospace;
+    font-family: 'Alata', Arial, Helvetica, sans-serif;
 }
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:#AEA7E1; 
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 45px;
+    transform: translate(-50%, -50%);
+} 
+input[type="submit"], textarea {
+    background-color: #574AA8; 
+    border: 5px;
+    border-radius: 10px;
+  }
