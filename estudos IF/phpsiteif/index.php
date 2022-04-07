@@ -8,25 +8,27 @@
     <title>Site IF</title>
 </head>
 <body>
-    <?php
-    session_start();
-    if(isset($_SESSION['erro'])){
-        echo $_SESSION['erro'];
-    }
-    ?>
     <div>
-        <h1 class="titulo">Uatizap 2</h1>
+        <h1 class="titulo" style="color: #2A2452; ">Uatizap 2</h1>
         <form method="post" action="login.php">
-            <p>
-                <label>Usuário:</label>
+            <p style="color: #2A2452; ">
+                <label color= "aab">Usuário:</label>
                 <input type="text" name= "usuario"/>
             </p>
-            <p>
+            <p style="color: #2A2452; ">
                 <label>Senha:</label>
                 <input type="password" name="senha">
             </p>
-            <input type="submit" name="aa"/>
+            <input type="submit" name="aa" style= "color:#E9E1FF"/>
         </form>
     </div>
+    <p style="color: #E9E1FF">
+    <?php
+    session_start();
+    if(isset($_SESSION['erro']) == true){
+        echo $_SESSION['erro'];
+    }
+    ?>
+    </p>
 </body>
 </html>

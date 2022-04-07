@@ -6,6 +6,7 @@
     $senha = 'senha';
 
 if($_POST['usuario'] == $nome && $_POST['senha'] == $senha){
+    $_SESSION['usuario'] = $nome;
     header('Location: feed.php');
 }
 else{

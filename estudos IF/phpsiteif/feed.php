@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Feed</title>
 </head>
-
 <body>
-    <h1>Urubuzando tudo!</h1>
-    <h2>Olá <?php
+    <h1 style="color: #E9E1FF">Urubuzando tudo!</h1>
+    <h2 style="color: #E9E1FF">Olá <?php
     session_start();
-    echo $_SESSION['usuario'];
+    echo ($_SESSION['usuario']);
     ?>!</h2>
 </body>
 </html>

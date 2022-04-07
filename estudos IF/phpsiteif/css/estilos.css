@@ -6,8 +6,10 @@
 }
 
 body{
-    background-color: #574AA8;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #574AA8, #6558C7);
     text-align: center;
+    background-attachment: fixed;
 }
 *{
     font-family: 'Alata', Arial, Helvetica, sans-serif;
@@ -16,7 +18,8 @@ div{
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color:#AEA7E1; 
+    /*background-color:#AEA7E1; */
+    background-image: linear-gradient(to bottom, #E9E1FF, #AEA7E1);
     text-align: center;
     height: 200px;
     width: 600px;
@@ -26,8 +29,8 @@ div{
     border-top-right-radius: 45px;
     transform: translate(-50%, -50%);
 } 
-input[type="submit"], textarea {
+input[name='aa'], textarea {
     background-color: #574AA8; 
     border: 5px;
     border-radius: 10px;
-  }
+}
